@@ -31,7 +31,6 @@ vertex RasterData vertexShader_demoRender(uint vertextID[[vertex_id]],
     out.position = vector_float4(0.0, 0.0, 0.0, 1.0);
     
     // trans Coordinate & Ask question
-    // MARK: Turn into Keynote ask my Opposite people
     out.position.xy = pixelSpacePosition.xy / (viewportSize.xy / 2.0);
     out.color = vertices[vertextID].color;
     

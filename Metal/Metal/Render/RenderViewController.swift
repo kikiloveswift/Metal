@@ -9,7 +9,7 @@
 import Cocoa
 import MetalKit
 
-class RenderViewController: MetalViewController {
+final class RenderViewController: MetalViewController {
 
     var render: ViewRender?
     override func viewDidLoad() {
